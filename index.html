@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pack com +1.000 Moldes de Costura</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '881724838218556');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=881724838218556&ev=PageView&noscript=1"/></noscript>
+<!-- End Meta Pixel -->
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --purple: #7c3aed; --purple-light: #ede9fe; --pink: #ec4899;
+    --green: #10b981; --green-dark: #059669; --dark: #1e1b4b;
+    --gray: #6b7280; --light-bg: #f5f3ff; --white: #ffffff;
+  }
+  body { font-family: 'Lato', sans-serif; background: var(--white); color: #1f2937; overflow-x: hidden; }
+
+  /* TICKER */
+  .ticker { background: #dc2626; color: white; padding: 10px 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-block; animation: ticker 20s linear infinite; font-weight: 700; font-size: 14px; letter-spacing: 1px; }
+  .ticker-inner span { margin: 0 40px; }
+  @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+  /* HERO */
+  .hero { background: var(--light-bg); text-align: center; padding: 60px 20px 40px; }
+  .badge { display: inline-block; background: linear-gradient(135deg, var(--purple), var(--pink)); color: white; padding: 8px 22px; border-radius: 50px; font-size: 14px; font-weight: 700; margin-bottom: 24px; letter-spacing: 1px; }
+  .hero h1 { font-family: 'Montserrat', sans-serif; font-size: clamp(36px, 6vw, 72px); font-weight: 900; color: var(--purple); line-height: 1.1; margin-bottom: 8px; }
+  .hero h2 { font-family: 'Montserrat', sans-serif; font-size: clamp(22px, 3.5vw, 40px); font-weight: 700; color: #1f2937; margin-bottom: 16px; }
+  .hero p { font-size: 17px; color: #4b5563; max-width: 560px; margin: 0 auto 40px; line-height: 1.6; }
+  .hero p strong { color: var(--green-dark); }
+  .product-grid-wrap { max-width: 760px; margin: 0 auto 40px; background: white; border-radius: 20px; box-shadow: 0 4px 24px rgba(0,0,0,0.07); overflow: hidden; }
+  .product-grid-wrap img { width: 100%; display: block; }
+
+  /* OFFER STRIP */
+  .offer-strip { background: var(--light-bg); text-align: center; padding: 40px 20px; border-top: 1px solid #ddd6fe; }
+  .offer-label { font-size: 15px; font-weight: 700; color: var(--purple); margin-bottom: 8px; }
+  .offer-label span { color: var(--green); }
+  .discount-badge { display: inline-block; background: linear-gradient(135deg, #f59e0b, #ef4444); color: white; font-size: 13px; font-weight: 800; padding: 4px 14px; border-radius: 50px; margin-bottom: 12px; }
+  .price-old { font-size: 16px; color: var(--gray); text-decoration: line-through; margin-bottom: 4px; }
+  .price-new { font-family: 'Montserrat', sans-serif; font-size: clamp(40px, 7vw, 64px); font-weight: 900; color: var(--green); line-height: 1; margin-bottom: 20px; }
+  .price-new small { font-size: 22px; }
+  .btn-main { display: inline-block; background: var(--green); color: white; padding: 18px 48px; border-radius: 50px; font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 800; text-decoration: none; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; border: none; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 6px 24px rgba(16,185,129,0.4); }
+  .btn-main:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(16,185,129,0.5); }
+  .guarantee-row { display: flex; justify-content: center; gap: 24px; margin-top: 14px; font-size: 13px; color: var(--gray); }
+  .guarantee-row span { display: flex; align-items: center; gap: 5px; }
+
+  /* BLUE STRIP */
+  .blue-strip { background: #dbeafe; text-align: center; padding: 20px; font-size: 16px; font-weight: 700; color: #1e40af; }
+  .blue-strip span { color: var(--green-dark); }
+
+  /* SECTIONS */
+  section { padding: 60px 20px; }
+  .container { max-width: 900px; margin: 0 auto; }
+  .section-badge { display: inline-block; border: 2px solid var(--pink); color: var(--pink); padding: 5px 18px; border-radius: 50px; font-size: 13px; font-weight: 700; letter-spacing: 1px; margin-bottom: 16px; }
+  .section-title { font-family: 'Montserrat', sans-serif; font-size: clamp(24px, 4vw, 40px); font-weight: 900; line-height: 1.2; margin-bottom: 12px; }
+  .section-title .purple { color: var(--purple); }
+  .section-title .pink { color: var(--pink); }
+
+  /* SIZES — categories + phone */
+  .sizes-section { background: #f9fafb; }
+  .sizes-layout { display: flex; align-items: center; gap: 48px; margin-top: 32px; }
+  .sizes-cards { display: flex; flex-direction: column; gap: 16px; flex: 1; }
+  .size-card { background: white; border-radius: 16px; padding: 14px 16px; display: flex; align-items: center; gap: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+  .size-card img { width: 80px; height: 70px; object-fit: cover; border-radius: 10px; }
+  .size-card h3 { font-size: 18px; font-weight: 800; }
+  .size-card p { font-size: 13px; color: var(--gray); }
+  .phone-wrap { flex: 1; display: flex; justify-content: center; }
+  .phone-frame { width: 200px; background: #111; border-radius: 36px; padding: 12px 8px; box-shadow: 0 20px 60px rgba(0,0,0,0.4); position: relative; }
+  .phone-notch { width: 56px; height: 10px; background: #111; border-radius: 0 0 8px 8px; position: absolute; top: 12px; left: 50%; transform: translateX(-50%); z-index: 2; }
+  .phone-screen { border-radius: 26px; overflow: hidden; height: 380px; background: #eee; }
+  .phone-screen img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  /* CONTENT PREVIEW */
+  .content-preview { background: var(--light-bg); text-align: center; }
+  .folder-section img { width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.10); display: block; margin-bottom: 16px; }
+
+  /* APOSTILA */
+  .apostila-section { background: #1e1b4b; color: white; text-align: center; padding: 60px 20px; }
+  .apostila-section .section-badge { border-color: var(--pink); color: var(--pink); }
+  .apostila-title { font-family: 'Montserrat', sans-serif; font-size: clamp(26px, 5vw, 48px); font-weight: 900; text-transform: uppercase; letter-spacing: 1px; margin: 16px 0 12px; color: white; }
+  .apostila-title .pink { color: var(--pink); }
+  .apostila-section p { font-size: 16px; color: #c4b5fd; max-width: 560px; margin: 0 auto 36px; line-height: 1.7; }
+  .apostila-img { max-width: 700px; width: 100%; margin: 0 auto; display: block; border-radius: 12px; }
+
+  /* HOW IT WORKS */
+  .how-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+  .how-card { background: white; border-radius: 20px; padding: 32px 24px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.07); }
+  .how-num { width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 18px; color: white; margin: 0 auto 16px; }
+  .how-num.n1 { background: #7c3aed; } .how-num.n2 { background: #f97316; } .how-num.n3 { background: #14b8a6; }
+  .how-icon { font-size: 32px; margin-bottom: 12px; }
+  .how-card h3 { font-size: 18px; font-weight: 800; margin-bottom: 8px; }
+  .how-card p { font-size: 14px; color: var(--gray); line-height: 1.6; }
+
+  /* BENEFITS */
+  .benefits-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 32px; }
+  .benefit-card { background: white; border-radius: 16px; padding: 20px; display: flex; align-items: flex-start; gap: 14px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
+  .benefit-icon { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; }
+  .benefit-icon.blue { background: #dbeafe; } .benefit-icon.orange { background: #ffedd5; } .benefit-icon.teal { background: #ccfbf1; }
+  .benefit-icon.red { background: #fee2e2; } .benefit-icon.green { background: #dcfce7; } .benefit-icon.purple { background: #ede9fe; }
+  .benefit-card h4 { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+  .benefit-card p { font-size: 14px; color: var(--gray); line-height: 1.5; }
+  .benefit-note { text-align: center; font-size: 16px; color: #374151; margin-top: 24px; font-weight: 600; }
+
+  /* PRICING */
+  .pricing-section { background: var(--light-bg); text-align: center; }
+  .pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 780px; margin: 40px auto 0; }
+  .plan-card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.1); }
+  .plan-card.featured { border: 2px solid var(--green); }
+  .plan-top-badge { background: var(--green); color: white; font-size: 12px; font-weight: 800; padding: 6px; text-align: center; letter-spacing: 2px; }
+  .plan-body { padding: 28px 24px; }
+  .plan-name { font-family: 'Montserrat', sans-serif; font-size: 22px; font-weight: 900; margin-bottom: 4px; }
+  .plan-sub { font-size: 13px; color: var(--gray); margin-bottom: 16px; }
+  .plan-discount { display: inline-block; background: linear-gradient(135deg, #f59e0b, #ef4444); color: white; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 50px; margin-bottom: 10px; }
+  .plan-old { font-size: 14px; color: var(--gray); text-decoration: line-through; margin-bottom: 4px; }
+  .plan-price { font-family: 'Montserrat', sans-serif; font-size: 48px; font-weight: 900; color: var(--dark); line-height: 1; margin-bottom: 4px; }
+  .plan-price small { font-size: 20px; }
+  .plan-economy { font-size: 13px; color: var(--green); font-weight: 700; margin-bottom: 20px; }
+  .plan-features { list-style: none; margin-bottom: 24px; text-align: left; }
+  .plan-features li { font-size: 14px; padding: 5px 0; display: flex; align-items: flex-start; gap: 8px; line-height: 1.4; }
+  .plan-features li .check { color: var(--green); font-weight: 900; flex-shrink: 0; }
+  .plan-features li .cross { text-decoration: line-through; color: #9ca3af; }
+  .btn-plan { display: block; padding: 16px; border-radius: 50px; font-family: 'Montserrat', sans-serif; font-size: 15px; font-weight: 800; text-decoration: none; text-align: center; cursor: pointer; text-transform: uppercase; letter-spacing: 1px; transition: transform 0.2s; border: none; }
+  .btn-plan:hover { transform: translateY(-2px); }
+  .btn-plan.green { background: var(--green); color: white; box-shadow: 0 4px 16px rgba(16,185,129,0.4); }
+  .btn-plan.outline { background: transparent; color: #374151; border: 2px solid #d1d5db; }
+  .payment-icons { display: flex; justify-content: center; gap: 6px; margin-top: 12px; flex-wrap: wrap; }
+  .payment-icons span { background: #f3f4f6; border-radius: 6px; padding: 4px 8px; font-size: 11px; font-weight: 700; color: #374151; }
+
+  /* TESTIMONIALS */
+  .testimonials-section { background: #f9fafb; }
+  .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 40px; }
+  .testimonial-card { background: white; border-radius: 16px; padding: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+  .t-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+  .t-avatar { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 800; color: white; flex-shrink: 0; }
+  .t-info h4 { font-size: 15px; font-weight: 700; } .t-info p { font-size: 12px; color: var(--gray); }
+  .t-text { font-size: 14px; color: #374151; line-height: 1.6; margin-bottom: 10px; }
+  .t-likes { font-size: 12px; color: var(--gray); }
+
+  /* AUTHOR */
+  .author-section { background: white; }
+  .author-card { background: #fdf2f8; border-radius: 24px; padding: 40px; max-width: 700px; margin: 0 auto; display: flex; gap: 32px; align-items: flex-start; }
+  .author-photo { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 4px solid white; box-shadow: 0 4px 16px rgba(0,0,0,0.12); }
+  .author-badge { font-size: 13px; font-weight: 700; color: var(--pink); letter-spacing: 1px; margin-bottom: 6px; }
+  .author-name { font-family: 'Montserrat', sans-serif; font-size: 28px; font-weight: 900; color: #1f2937; margin-bottom: 4px; }
+  .author-title { font-size: 15px; color: var(--purple); font-weight: 600; margin-bottom: 16px; }
+  .author-bio { font-size: 15px; color: #374151; line-height: 1.7; margin-bottom: 16px; }
+  .author-strong { font-weight: 700; }
+  .author-quote { border-left: 3px solid var(--pink); padding-left: 16px; font-style: italic; font-size: 14px; color: #374151; line-height: 1.6; }
+
+  /* GUARANTEE */
+  .guarantee-section { background: #f9fafb; }
+  .guarantee-card { max-width: 600px; margin: 0 auto; background: white; border-radius: 24px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); display: flex; gap: 28px; align-items: center; }
+  .guarantee-circle { width: 90px; height: 90px; background: linear-gradient(135deg, #fbbf24, #f59e0b); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; font-weight: 900; flex-shrink: 0; text-align: center; }
+  .guarantee-circle .g-label { font-size: 10px; letter-spacing: 1px; }
+  .guarantee-circle .g-num { font-size: 28px; line-height: 1; }
+  .guarantee-circle .g-days { font-size: 10px; }
+  .guarantee-card h3 { font-family: 'Montserrat', sans-serif; font-size: 22px; font-weight: 900; margin-bottom: 6px; }
+  .guarantee-pink { color: var(--pink); font-size: 13px; font-weight: 700; letter-spacing: 1px; margin-bottom: 10px; }
+  .guarantee-card p { font-size: 14px; color: #374151; line-height: 1.7; }
+  .guarantee-note { font-size: 13px; color: var(--gray); font-style: italic; margin-top: 10px; }
+
+  /* FAQ */
+  .faq-section { background: white; }
+  .faq-list { max-width: 700px; margin: 32px auto 0; }
+  .faq-item { border: 1px solid #e5e7eb; border-radius: 14px; margin-bottom: 12px; overflow: hidden; }
+  .faq-question { width: 100%; background: none; border: none; padding: 18px 20px; text-align: left; font-size: 16px; font-weight: 700; cursor: pointer; display: flex; justify-content: space-between; align-items: center; color: #1f2937; font-family: 'Lato', sans-serif; }
+  .faq-question .chevron { transition: transform 0.3s; font-size: 18px; color: var(--gray); }
+  .faq-question.open .chevron { transform: rotate(180deg); }
+  .faq-answer { padding: 0 20px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; font-size: 14px; color: #4b5563; line-height: 1.7; }
+  .faq-answer.open { max-height: 200px; padding: 0 20px 18px; }
+
+  /* FOOTER */
+  footer { background: #1e3a5f; color: #cbd5e1; text-align: center; padding: 40px 20px; font-size: 13px; line-height: 1.8; }
+  footer p { max-width: 700px; margin: 0 auto 12px; }
+
+  @media (max-width: 700px) {
+    .sizes-layout { flex-direction: column; }
+    .how-grid, .benefits-grid, .pricing-grid, .testimonials-grid { grid-template-columns: 1fr; }
+    .author-card { flex-direction: column; align-items: center; text-align: center; }
+    .guarantee-card { flex-direction: column; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-inner">
+    <span>🔨 MEGA PROMOÇÃO DE MOLDES DE COSTURA — TRANSFORME TECIDO EM RENDA! 🔨</span>
+    <span>🔨 MEGA PROMOÇÃO DE MOLDES DE COSTURA — TRANSFORME TECIDO EM RENDA! 🔨</span>
+    <span>🔨 MEGA PROMOÇÃO DE MOLDES DE COSTURA — TRANSFORME TECIDO EM RENDA! 🔨</span>
+    <span>🔨 MEGA PROMOÇÃO DE MOLDES DE COSTURA — TRANSFORME TECIDO EM RENDA! 🔨</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="badge">✨ COLEÇÃO 2026 ✨</div>
+  <h1>Pack com +1.000 Moldes</h1>
+  <h2>de Costura Prontos para Imprimir</h2>
+  <p>Moldes profissionais para você <strong>costurar e lucrar</strong> com peças incríveis — do iniciante ao avançado!</p>
+  <div class="product-grid-wrap">
+    <img src="grade-principal-do-hero.jpg" alt="Prévia das roupas do kit">
+  </div>
+</div>
+
+<!-- OFFER STRIP -->
+<div class="offer-strip">
+  <p class="offer-label">+1.000 moldes prontos para <span>impressão A4</span></p>
+  <div class="discount-badge">⚡ 94% DE DESCONTO</div>
+  <div class="price-old">DE R$ 97,00</div>
+  <div class="price-new"><small>R$</small> 9,90</div>
+  <a href="#escolha-seu-kit" class="btn-main">QUERO MEUS MOLDES AGORA!</a>
+  <div class="guarantee-row">
+    <span>⬇ Acesso Imediato</span>
+    <span>🔒 Garantia 7 dias</span>
+  </div>
+</div>
+
+<!-- BLUE STRIP -->
+<div class="blue-strip">
+  +1.000 Moldes profissionais prontos para <span>IMPRIMIR</span> e começar a costurar hoje!
+</div>
+
+<!-- SIZES SECTION -->
+<section class="sizes-section">
+  <div class="container" style="text-align:center">
+    <div class="section-badge">MODELAGEM COMPLETA</div>
+    <h2 class="section-title">Moldes em Todos os <span class="purple">Tamanhos</span></h2>
+    <div class="sizes-layout">
+      <div class="sizes-cards">
+        <div class="size-card">
+          <img src="feminino.jpg" alt="Feminino">
+          <div><h3>Feminino</h3><p>PP ao GG</p></div>
+        </div>
+        <div class="size-card">
+          <img src="masculino.jpg" alt="Masculino">
+          <div><h3>Masculino</h3><p>PP ao GG</p></div>
+        </div>
+        <div class="size-card">
+          <img src="infantil.jpg" alt="Infantil">
+          <div><h3>Infantil</h3><p>PP ao GG</p></div>
+        </div>
+      </div>
+      <div class="phone-wrap">
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <img src="gif-do-celular.gif" alt="Preview dos moldes no celular">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTENT PREVIEW -->
+<section class="content-preview">
+  <div class="container">
+    <div class="section-badge">👁 PRÉVIA DO CONTEÚDO</div>
+    <h2 class="section-title" style="text-align:center">Conheça um pouco mais<br><span class="pink">as opções disponíveis!</span></h2>
+    <div class="folder-section" style="margin-top:24px">
+      <img src="moldes-femininos.jpg" alt="Moldes Femininos">
+      <img src="moldes-infantis.jpg" alt="Moldes Infantis">
+      <img src="moldes-masculinos.jpg" alt="Moldes Masculinos">
+    </div>
+  </div>
+</section>
+
+<!-- APOSTILA SECTION -->
+<section class="apostila-section">
+  <div class="section-badge">📖 MATERIAL COMPLETO</div>
+  <h2 class="apostila-title">APOSTILA DE COSTURA <span class="pink">INCLUÍDA</span></h2>
+  <p>Aprenda técnicas de costura do zero com nosso guia ilustrado, perfeito para iniciantes e profissionais!</p>
+  <img src="apostila-de-costura.jpg" alt="Apostila de Costura" class="apostila-img">
+</section>
+
+<!-- HOW IT WORKS -->
+<section style="background:white">
+  <div class="container" style="text-align:center">
+    <h2 class="section-title">COMO <span class="purple">FUNCIONA?</span></h2>
+    <p style="color:var(--gray)">Veja como é fácil começar a costurar</p>
+    <div class="how-grid">
+      <div class="how-card"><div class="how-num n1">1</div><div class="how-icon">⬇</div><h3>Baixe os Moldes</h3><p>Após a compra, acesse imediatamente todos os moldes em PDF prontos para imprimir na sua casa.</p></div>
+      <div class="how-card"><div class="how-num n2">2</div><div class="how-icon">🖨</div><h3>Imprima e Monte</h3><p>Imprima em folha A4 comum, recorte e cole seguindo as marcações. Fácil e sem mistério!</p></div>
+      <div class="how-card"><div class="how-num n3">3</div><div class="how-icon">✂️</div><h3>Corte e Costure</h3><p>Posicione o molde no tecido, corte e costure peças profissionais com acabamento perfeito!</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT YOU GET -->
+<section style="background:var(--light-bg)">
+  <div class="container" style="text-align:center">
+    <div class="section-badge">🎁 EXCLUSIVO NO KIT PREMIUM</div>
+    <h2 class="section-title" style="margin-top:12px">OLHA TUDO QUE VOCÊ<br><span class="purple">VAI RECEBER!</span></h2>
+    <div class="benefits-grid">
+      <div class="benefit-card"><div class="benefit-icon blue">📖</div><div><h4>Apostila de Costura</h4><p>Guia completo para iniciantes com técnicas essenciais</p></div></div>
+      <div class="benefit-card"><div class="benefit-icon orange">🖼</div><div><h4>Fotos de Referência</h4><p>Imagens das peças prontas para visualizar o resultado</p></div></div>
+      <div class="benefit-card"><div class="benefit-icon teal">📏</div><div><h4>Tabela de Medidas</h4><p>Medidas detalhadas de cada tamanho para ajuste perfeito</p></div></div>
+      <div class="benefit-card"><div class="benefit-icon red">✂️</div><div><h4>Guia de Corte</h4><p>Instruções de como posicionar o molde no tecido</p></div></div>
+      <div class="benefit-card"><div class="benefit-icon green">📊</div><div><h4>Planilha de Custos</h4><p>Calcule o custo de cada peça e defina seus preços</p></div></div>
+      <div class="benefit-card"><div class="benefit-icon purple">💬</div><div><h4>Suporte via WhatsApp</h4><p>Tire dúvidas de modelagem direto com nossa equipe</p></div></div>
+      <div class="benefit-card"><div class="benefit-icon blue">📅</div><div><h4>Coleções Sazonais</h4><p>Primavera/Verão e Outono/Inverno inclusos</p></div></div>
+      <div class="benefit-card"><div class="benefit-icon teal">♾️</div><div><h4>Acesso Vitalício</h4><p>Novos moldes adicionados todo mês sem custo extra</p></div></div>
+    </div>
+    <p class="benefit-note">Tudo isso por um valor que cabe no seu bolso! 👇</p>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing-section" id="escolha-seu-kit">
+  <div class="container">
+    <h2 class="section-title" style="text-align:center">ESCOLHA SEU KIT</h2>
+    <p style="text-align:center;color:var(--gray)">Comece a costurar e lucrar hoje mesmo!</p>
+    <div class="pricing-grid">
+      <div class="plan-card featured">
+        <div class="plan-top-badge">MAIS VENDIDO</div>
+        <div class="plan-body">
+          <div class="plan-name">KIT PREMIUM</div>
+          <div class="plan-sub">Pacote completo + 200 moldes BÔNUS</div>
+          <div class="plan-discount">⚡ 80% DE DESCONTO</div>
+          <div class="plan-old">DE R$ 97,00</div>
+          <div class="plan-price"><small>R$</small> 19</div>
+          <div class="plan-economy">Economize R$ 78,00</div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> BÔNUS 1: Tabela de consumo de tecido</li>
+            <li><span class="check">✓</span> BÔNUS 2: Guia de tecidos indicados para cada modelo</li>
+            <li><span class="check">✓</span> BÔNUS 3: Lista de peças que mais vendem para costurar e vender</li>
+            <li><span class="check">✓</span> BÔNUS 4: Guia de medidas e ajustes básicos</li>
+            <li><span class="check">✓</span> +200 moldes BÔNUS exclusivos</li>
+            <li><span class="check">✓</span> +1.000 moldes de peças variadas</li>
+            <li><span class="check">✓</span> Moldes organizados por categoria</li>
+            <li><span class="check">✓</span> PDF pronto para impressão A4</li>
+            <li><span class="check">✓</span> Tamanhos P ao GG</li>
+            <li><span class="check">✓</span> Apostila completa de costura</li>
+            <li><span class="check">✓</span> Vídeo-aulas passo a passo</li>
+            <li><span class="check">✓</span> Guia de tecidos recomendados</li>
+            <li><span class="check">✓</span> Coleções sazonais inclusos</li>
+            <li><span class="check">✓</span> Acesso VITALÍCIO + atualizações</li>
+            <li><span class="check">✓</span> Suporte via WhatsApp</li>
+          </ul>
+          <a href="https://pay.kiwify.com.br/jpnimkt" class="btn-plan green">QUERO MEU KIT DE MOLDES!</a>
+          <div class="guarantee-row" style="margin-top:10px"><span>✓ Acesso Imediato</span><span>🔒 Garantia 7 dias</span></div>
+          <div class="payment-icons" style="margin-top:12px"><span>PIX</span><span>VISA</span><span>MASTER</span><span>ELO</span><span>HIPERCARD</span><span>BOLETO</span></div>
+        </div>
+      </div>
+      <div class="plan-card">
+        <div class="plan-body" style="padding-top:28px">
+          <div class="plan-name">KIT BÁSICO</div>
+          <div class="plan-sub">Para quem quer começar</div>
+          <div style="height:24px"></div>
+          <div class="plan-old">R$ 47,00</div>
+          <div class="plan-price"><small>R$</small> 9,90</div>
+          <div style="height:24px"></div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> +1.000 moldes de peças variadas</li>
+            <li><span class="check">✓</span> Moldes organizados por categoria</li>
+            <li><span class="check">✓</span> PDF pronto para impressão A4</li>
+            <li><span class="check">✓</span> Tamanhos P ao GG</li>
+            <li><span class="check">✓</span> Acesso por 6 meses</li>
+            <li><span style="color:#ef4444">✗</span> <span class="cross">BÔNUS 1: Tabela de consumo de tecido</span></li>
+            <li><span style="color:#ef4444">✗</span> <span class="cross">BÔNUS 2: Guia de tecidos indicados</span></li>
+            <li><span style="color:#ef4444">✗</span> <span class="cross">BÔNUS 3: Lista de peças mais vendidas</span></li>
+            <li><span style="color:#ef4444">✗</span> <span class="cross">BÔNUS 4: Guia de medidas e ajustes</span></li>
+            <li><span style="color:#ef4444">✗</span> <span class="cross">Apostila completa de costura</span></li>
+            <li><span style="color:#ef4444">✗</span> <span class="cross">Vídeo-aulas passo a passo</span></li>
+            <li><span style="color:#ef4444">✗</span> <span class="cross">Bônus exclusivos (200 moldes)</span></li>
+            <li><span style="color:#ef4444">✗</span> <span class="cross">Acesso VITALÍCIO + atualizações</span></li>
+            <li><span style="color:#ef4444">✗</span> <span class="cross">Suporte via WhatsApp</span></li>
+          </ul>
+          <a href="upgrade.html" class="btn-plan outline">QUERO O KIT BÁSICO</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+  <div class="container" style="text-align:center">
+    <h2 class="section-title">O QUE ESTÃO FALANDO</h2>
+    <p style="color:var(--gray)">Veja o que nossas costureiras estão comentando</p>
+    <div class="testimonials-grid">
+      <div class="testimonial-card"><div class="t-header"><div class="t-avatar" style="background:#7c3aed">AF</div><div class="t-info"><h4>Adriana F.</h4><p>há 2 dias</p></div></div><p class="t-text">Sempre quis costurar minhas próprias roupas e esse kit é perfeito! Já fiz 5 peças lindas! 😋🔨</p><div class="t-likes">👍 53 curtidas</div></div>
+      <div class="testimonial-card"><div class="t-header"><div class="t-avatar" style="background:#ec4899">RM</div><div class="t-info"><h4>Renata M.</h4><p>há 3 dias</p></div></div><p class="t-text">Os moldes são super bem feitos, encaixam perfeitamente! Meus clientes amaram as peças ❤️</p><div class="t-likes">👍 41 curtidas</div></div>
+      <div class="testimonial-card"><div class="t-header"><div class="t-avatar" style="background:#10b981">SL</div><div class="t-info"><h4>Sandra L.</h4><p>há 1 semana</p></div></div><p class="t-text">Nunca tinha costurado antes e com as vídeo-aulas consegui fazer um vestido lindo! Recomendo demais 🙌</p><div class="t-likes">👍 67 curtidas</div></div>
+      <div class="testimonial-card"><div class="t-header"><div class="t-avatar" style="background:#f97316">CP</div><div class="t-info"><h4>Cristina P.</h4><p>há 4 dias</p></div></div><p class="t-text">Comprei o kit premium e já recuperei o investimento vendendo peças sob medida! Incrível ❤️</p><div class="t-likes">👍 38 curtidas</div></div>
+      <div class="testimonial-card"><div class="t-header"><div class="t-avatar" style="background:#8b5cf6">MS</div><div class="t-info"><h4>Mariana S.</h4><p>há 5 dias</p></div></div><p class="t-text">A qualidade dos moldes é profissional! Parece que saiu de uma escola de moda. Amei! 💗</p><div class="t-likes">👍 45 curtidas</div></div>
+      <div class="testimonial-card"><div class="t-header"><div class="t-avatar" style="background:#0ea5e9">LR</div><div class="t-info"><h4>Luciana R.</h4><p>há 1 semana</p></div></div><p class="t-text">O suporte é maravilhoso, me ajudaram com todas as dúvidas. Melhor compra do ano! 😄👕</p><div class="t-likes">👍 32 curtidas</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- AUTHOR -->
+<section class="author-section">
+  <div class="container">
+    <div class="author-card">
+      <img src="foto-da-teresa-costa.jpg" alt="Teresa Costa" class="author-photo">
+      <div>
+        <div class="author-badge">🧵 CRIADORA DOS MOLDES</div>
+        <div class="author-name">Teresa Costa</div>
+        <div class="author-title">Modelista e Professora de Costura</div>
+        <p class="author-bio">Olá! Sou a Teresa, modelista profissional há mais de 30 anos de experiência na profissão e professora de costura. 🧵</p>
+        <p class="author-bio">Já ensinei mais de <span class="author-strong">5.000 alunas</span> a criar peças incríveis do zero.</p>
+        <div class="author-quote">"Meu sonho é que toda mulher consiga criar suas próprias roupas com qualidade de ateliê, mesmo sem experiência!"</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GUARANTEE -->
+<section class="guarantee-section">
+  <div class="container">
+    <div class="guarantee-card">
+      <div class="guarantee-circle"><div class="g-label">GARANTIA</div><div class="g-num">7</div><div class="g-days">DIAS</div></div>
+      <div>
+        <h3>Garantia INCONDICIONAL de 7 dias!</h3>
+        <div class="guarantee-pink">🛡 RISCO ZERO PARA VOCÊ</div>
+        <p>Compre com tranquilidade! Se por qualquer motivo você não ficar 100% satisfeita com o material, basta enviar um e-mail em até 7 dias e devolvemos <strong>todo o seu dinheiro</strong>. Sem perguntas, sem burocracia, sem complicação.</p>
+        <p class="guarantee-note">Essa garantia mostra a confiança que temos na qualidade do nosso material!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section">
+  <div class="container" style="text-align:center">
+    <p style="color:var(--green);font-weight:700;letter-spacing:1px;font-size:13px">TIRE SUAS DÚVIDAS</p>
+    <h2 class="section-title">PERGUNTAS FREQUENTES</h2>
+    <div class="faq-list">
+      <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Como vou receber os moldes? <span class="chevron">▾</span></button><div class="faq-answer">Após a confirmação do pagamento, você recebe automaticamente por e-mail o link de acesso para baixar todos os moldes em PDF, organizados por categoria.</div></div>
+      <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Preciso ter experiência em costura? <span class="chevron">▾</span></button><div class="faq-answer">Não! Os moldes vêm com instruções detalhadas e o kit premium inclui vídeo-aulas passo a passo para iniciantes.</div></div>
+      <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Posso imprimir em casa? <span class="chevron">▾</span></button><div class="faq-answer">Sim! Todos os moldes são formatados para impressão em folha A4 comum. Basta imprimir, recortar e colar seguindo as marcações.</div></div>
+      <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Posso vender as peças que costurar? <span class="chevron">▾</span></button><div class="faq-answer">Sim! Você pode usar os moldes para produção e venda das suas peças. Os moldes são ferramentas de trabalho para você lucrar.</div></div>
+      <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Os moldes têm todos os tamanhos? <span class="chevron">▾</span></button><div class="faq-answer">Os kits vão dos tamanhos P ao GG.</div></div>
+      <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Por quanto tempo terei acesso? <span class="chevron">▾</span></button><div class="faq-answer">O Kit Básico tem acesso por 6 meses. O Kit Premium tem acesso VITALÍCIO.</div></div>
+      <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">E se eu não gostar do material? <span class="chevron">▾</span></button><div class="faq-answer">Você tem 7 dias de garantia incondicional. Se não ficar satisfeita, devolvemos 100% do seu dinheiro sem perguntas.</div></div>
+      <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Quais formas de pagamento? <span class="chevron">▾</span></button><div class="faq-answer">Aceitamos PIX, cartão de crédito e todas as principais bandeiras.</div></div>
+      <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Funciona no celular? <span class="chevron">▾</span></button><div class="faq-answer">Sim! Você pode acessar e baixar os moldes pelo celular, tablet ou computador. Para impressão, recomendamos usar um computador.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas do produto e usamos resultados reais. Nós não vendemos o seu e-mail ou qualquer informação para terceiros. Jamais fazemos nenhum tipo de spam. Se você tiver alguma dúvida, sinta-se à vontade para usar o link de contato e falar conosco em horário comercial de Segunda a Sextas das 09h00 às 18h00. Lemos e respondemos todas as mensagens por ordem de chegada.</p>
+  <p>© 2026 – Todos os direitos reservados</p>
+</footer>
+
+<script>
+function toggleFaq(btn) {
+  const answer = btn.nextElementSibling;
+  const isOpen = btn.classList.contains('open');
+  document.querySelectorAll('.faq-question').forEach(q => {
+    q.classList.remove('open');
+    q.nextElementSibling.classList.remove('open');
+  });
+  if (!isOpen) { btn.classList.add('open'); answer.classList.add('open'); }
+}
+
+// Função para enviar evento para API de Conversões do Meta
+async function sendConversionEvent(eventName, eventData) {
+  const pixelId = '881724838218556';
+  const accessToken = 'EAAHI1IUnvlABRbTT6mQtdfh1km3gSn3G38LNHWTJwbshkT5QW6C9iLMmteSc58peqIE88fvnvBvh8ILEGYNTFXaQR4taYguZAuk7IgsnTnLaEhzDdMiOMJ0hVfDb3WxCq2yqXN0mYOniWI6KwFtOHWNXYMvP22L2VlYo0ChmhZAmER1KEyUSTqUG0COgZDZD';
+  const url = `https://graph.facebook.com/v18.0/${pixelId}/events?access_token=${accessToken}`;
+
+  const payload = {
+    data: [{
+      event_name: eventName,
+      event_time: Math.floor(Date.now() / 1000),
+      event_source_url: window.location.href,
+      action_source: 'website',
+      ...eventData
+    }]
+  };
+
+  try {
+    await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+  } catch(e) {}
+}
+
+// Rastrear cliques nos botões de compra
+document.addEventListener('DOMContentLoaded', function() {
+
+  // Botão Premium (checkout direto)
+  document.querySelectorAll('a[href="https://pay.kiwify.com.br/jpnimkt"]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      fbq('track', 'InitiateCheckout', { content_name: 'Kit Premium', value: 19.00, currency: 'BRL' });
+      sendConversionEvent('InitiateCheckout', { custom_data: { content_name: 'Kit Premium', value: 19.00, currency: 'BRL' } });
+    });
+  });
+
+  // Botão Básico (vai para upgrade)
+  document.querySelectorAll('a[href="upgrade.html"]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      fbq('track', 'InitiateCheckout', { content_name: 'Kit Basico', value: 9.90, currency: 'BRL' });
+      sendConversionEvent('InitiateCheckout', { custom_data: { content_name: 'Kit Basico', value: 9.90, currency: 'BRL' } });
+    });
+  });
+
+  // ViewContent quando chega na seção de oferta
+  const ofertaSection = document.getElementById('escolha-seu-kit');
+  if (ofertaSection) {
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          fbq('track', 'ViewContent', { content_name: 'Kit Moldes de Costura' });
+          sendConversionEvent('ViewContent', { custom_data: { content_name: 'Kit Moldes de Costura' } });
+          observer.disconnect();
+        }
+      });
+    }, { threshold: 0.3 });
+    observer.observe(ofertaSection);
+  }
+});
+</script>
+</body>
+</html>
